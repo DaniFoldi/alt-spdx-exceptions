@@ -1,0 +1,25 @@
+{
+  "name": "alt-spdx-exceptions",
+  "version": "1.0.0",
+  "description": "The npm package `spdx-exceptions` is a package that contains a list of SPDX exceptions. This repository contains an alternative list (ideally at least as up-to-date) of exceptions.",
+  "main": "index.json",
+  "scripts": {
+    "collect": "node collect.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.json"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniFoldi/alt-spdx-exceptions.git"
+  },
+  "keywords": [],
+  "author": "DaniFoldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaniFoldi/alt-spdx-exceptions/issues"
+  },
+  "homepage": "https://github.com/DaniFoldi/alt-spdx-exceptions#readme"
+}
